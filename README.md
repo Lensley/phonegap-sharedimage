@@ -10,33 +10,33 @@ This plugin has been tested to work w/ [PhoneGap](http://phonegap.com/download) 
 
 Copy `src` and `assets` into your project folders. This is the plugin.
 
-Update `<plugins>` in `res/xml/config.xml`:
+Update `<plugins>` in your `res/xml/config.xml`:
 
-  <plugin name="SharedImage" value="com.lensley.phonegap.SharedImage" />
+    <plugin name="SharedImage" value="com.lensley.phonegap.SharedImage" />
 
 
 ## Usage
 
 First you'll need to install the appropriate Intent in your `AndroidManifest.xml`:
 
-  <intent-filter>
-    <action android:name="android.intent.action.SEND" />
-    <data android:mimeType="image/*" />
-    <category android:name="android.intent.category.DEFAULT" />
-  </intent-filter>
+    <intent-filter>
+      <action android:name="android.intent.action.SEND" />
+      <data android:mimeType="image/*" />
+      <category android:name="android.intent.category.DEFAULT" />
+    </intent-filter>
 
 
 Then in your PhoneGap app, add a Handler (put this in your `deviceready` callback):
 
-  sharedimage.shared(function(e) {
-    // the media uri - e.img is the only attribute
-    console.log("IMAGE: " + e.img);
+    sharedimage.shared(function(e) {
+      // the media uri - e.img is the only attribute
+      console.log("IMAGE: " + e.img);
 
-    // actual file name
-    window.resolveLocalFileSystemURI(e.img, function(imgfile) {
-      console.log("FILENAME: " + imgfile.name);
-    });
-  }
+      // actual file name
+      window.resolveLocalFileSystemURI(e.img, function(imgfile) {
+        console.log("FILENAME: " + imgfile.name);
+      });
+    }
 
 That's about it.
 
