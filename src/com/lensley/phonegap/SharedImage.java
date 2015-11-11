@@ -3,9 +3,9 @@ package com.lensley.phonegap;
 import android.content.Intent;
 import android.net.Uri;
 import android.util.Log;
-import org.apache.cordova.api.Plugin;
-import org.apache.cordova.api.PluginResult;
-import org.apache.cordova.api.PluginResult.Status;
+import org.apache.cordova.CordovaPlugin;
+import org.apache.cordova.PluginResult;
+import org.apache.cordova.PluginResult.Status;
 import org.json.JSONArray;
 
 import java.text.MessageFormat;
