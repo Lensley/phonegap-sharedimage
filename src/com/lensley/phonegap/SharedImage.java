@@ -58,7 +58,7 @@ public class SharedImage extends CordovaPlugin {
                                 "document.dispatchEvent(e);";
     String command = MessageFormat.format(javascriptTemplate, SHARED_IMAGE_EVENT, img);
     Log.d(TAG, command);
-    this.sendJavascript(command);        
+    this.cordova.getActivity().sendJavascript(command);        
   }
 
 }
