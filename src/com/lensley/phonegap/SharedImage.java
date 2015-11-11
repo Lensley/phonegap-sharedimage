@@ -10,7 +10,7 @@ import org.json.JSONArray;
 
 import java.text.MessageFormat;
 
-public class SharedImage extends Plugin {
+public class SharedImage extends CordovaPlugin {
   private static final String TAG = "SharedImagePlugin";
   private static final String INIT = "init";
   private static final String SHARED_IMAGE_EVENT = "sharedimage";
