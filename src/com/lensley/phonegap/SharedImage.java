@@ -60,8 +60,7 @@ public class SharedImage extends CordovaPlugin {
     Log.d(TAG, command);
 	//this.cordova.getActivity().sendJavascript(command);  
 	// These lines can be reused anywhere in your app to send data to the javascript
-	String ack = data.getString("data"); // You can acknowledge to the callback for instance and keep it alive 
-    PluginResult result = new PluginResult(PluginResult.Status.OK, ack);
+    PluginResult result = new PluginResult(PluginResult.Status.OK, "ok");
     result.setKeepCallback(true);//This is the important part that allows executing the callback more than once, change to false if you want the callbacks to stop firing  
     this.webView.sendPluginResult(result, command); 
 	
