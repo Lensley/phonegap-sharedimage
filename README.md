@@ -36,7 +36,7 @@ Then in your PhoneGap app, add a Handler (put this in your `deviceready` callbac
       window.resolveLocalFileSystemURI(e.img, function(imgfile) {
         console.log("FILENAME: " + imgfile.name);
       });
-    }
+    });
 
 That's about it.
 
