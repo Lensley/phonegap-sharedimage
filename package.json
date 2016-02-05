@@ -1,6 +1,6 @@
 {
   "name": "phonegap-sharedimage",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "This plugin will allow your app to receive shared image intents easily in android cordova apps.",
   "cordova": {
     "id": "phonegap-sharedimage",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ntheile/phonegap-sharedimage.git"
+    "url": "git+https://github.com/lensley/phonegap-sharedimage.git"
   },
   "keywords": [
     "cordova",
@@ -23,6 +23,9 @@
       "version": ">=3.0.0"
     }
   ],
-  "author": "nicktie",
+  "author": "Leonard Lin <lhl@lensley.com>",
+  "contributors": [{
+    "name": "Nick Theile (nicktie)"
+  }],
   "license": "MIT"
 }
