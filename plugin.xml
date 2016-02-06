@@ -9,7 +9,7 @@
 	<license>MIT</license>
 	<keywords>cordova, image, intent</keywords>
 	<js-module src="www/sharedimage.js" name="sharedimage">
-		<clobbers target="window.plugins.socialsharing" />
+		<clobbers target="SharedImage" />
 	</js-module>
    <!-- android -->
   <platform name="android">
