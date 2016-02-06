@@ -20,7 +20,7 @@
 	  </feature>
 	</config-file>
 
-	<config-file target="AndroidManifest.xml" parent="/*">
+  <config-file target="AndroidManifest.xml" parent="/manifest/application">
 	  
 	  <intent-filter>
 		<action android:name="android.intent.action.SEND" />
