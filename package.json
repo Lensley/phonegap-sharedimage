@@ -24,8 +24,5 @@
     }
   ],
   "author": "Leonard Lin <lhl@lensley.com>",
-  "contributors": [{
-    "name": "Nick Theile (nicktie)"
-  }],
   "license": "MIT"
 }

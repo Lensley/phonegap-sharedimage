@@ -4,7 +4,7 @@ By Leonard Lin
 This Cordova/PhoneGap plugin will allow your app to receive shared Android image intents easily.
 
 ## Requirements
-* v1.1.0 of this plugin has been tested to work w/ [Cordova](https://cordova.apache.org/) 6.0.0 
+* v1.1.0 of this plugin being updated to work w/ [Cordova](https://cordova.apache.org/) 6.0.0 (WIP)
 * [v1.0](https://github.com/Lensley/phonegap-sharedimage/tree/1.0) of this plugin has been tested to work w/ [PhoneGap](http://phonegap.com/download) 2.1.0
 
 ## Installing the Plugin
@@ -43,7 +43,7 @@ That's about it.
 
 The skeleton of the code was originally pulled from [phonegap-nfc](https://github.com/chariotsolutions/phonegap-nfc). I wrote this because [WebIntent](https://github.com/phonegap/phonegap-plugins/tree/master/Android/WebIntent) was bugging out in conjunction with phonegap-nfc. 
 
-npm packaging/Cordova plugin updates and contributions by @ntheile.
+npm packaging/Cordova plugin updates and contributions by [@ntheile](https://github.com/ntheile).
 
 ## License
 The MIT License

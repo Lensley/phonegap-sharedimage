@@ -1,5 +1,4 @@
 cordova.define("phonegap-sharedimage.sharedimage", function(require, exports, module) {
-
   function SharedImage() {
   }
 

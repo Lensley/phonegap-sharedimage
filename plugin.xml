@@ -16,12 +16,11 @@
 
 	<config-file target="res/xml/config.xml" parent="/*">
 	  <feature name="SharedImage">
-		<param name="android-package" value="com.lensley.phonegap.SharedImage" />
+		  <param name="android-package" value="com.lensley.phonegap.SharedImage" />
 	  </feature>
 	</config-file>
 
   <config-file target="AndroidManifest.xml" parent="/manifest/application">
-	  
 	  <intent-filter>
 		<action android:name="android.intent.action.SEND" />
 		<data android:mimeType="image/*" />
@@ -37,7 +36,6 @@
         <category android:name="android.intent.category.DEFAULT" />
         <data android:mimeType="image/*" />
     </intent-filter>
-	  
 	</config-file>
 
 	<source-file src="src/com/lensley/phonegap/SharedImage.java" target-dir="src/com/lensley/phonegap"/>
